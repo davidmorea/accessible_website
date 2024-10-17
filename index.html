@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>David Morea Abella - Portfolio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #333;
+            color: #fff;
+        }
+        nav {
+            background-color: #fff;
+            padding: 15px;
+            display: flex;
+            justify-content: center;
+            position: fixed;
+            top: 0;
+            width: 100%;
+            box-shadow: none;
+            z-index: 1000;
+        }
+        nav a {
+            color: #000;
+            text-decoration: none;
+            margin: 0 20px;
+            font-size: 1.2rem;
+            font-weight: bold;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        header {
+            background-color: #000;
+            color: #fff;
+            text-align: left;
+            padding: 150px 100px;
+            position: relative;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            margin-top: 0;
+        }
+
+        header h1 {
+            position: relative;
+            z-index: 1;
+            font-size: 4rem;
+            font-weight: bold;
+            margin-bottom: 20px;
+        }
+        header p {
+            position: relative;
+            z-index: 1;
+            font-size: 1.25rem;
+        }
+        section {
+            padding: 50px 150px;
+            max-width: 1200px;
+            margin: auto;
+        }
+        h1, h2 {
+            margin: 0;
+            font-weight: normal;
+        }
+        .section-title {
+            margin-bottom: 60px;
+            text-align: left;
+            font-size: 3rem;
+        }
+        .about-container {
+            display: flex;
+            align-items: center;
+        }
+        .about-text {
+            max-width: 600px;
+            font-size: 1.5rem;
+        }
+        .container {
+            display: flex;
+            flex-wrap: nowrap;
+            justify-content: space-between;
+        }
+        .card {
+            background: #444;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+            margin: 20px;
+            padding: 40px;
+            width: 300px;
+            text-align: center;
+        }
+        footer {
+            text-align: center;
+            padding: 60px;
+            background-color: #000;
+            color: #fff;
+            margin-top: 60px;
+        }
+    </style>
+</head>
+<body>
+
+<nav>
+    <a href="#about">About me</a>
+    <a href="#education">Education</a>
+    <a href="#experience">Experience</a>
+    <a href="#other-experience">Other experiences</a>
+    <a href="#contact">Contact</a>
+</nav>
+
+<header>
+    <div style="display: flex; align-items: center; padding: 10px 20px;">
+        <div style="flex: 1;">
+            <h1><strong>David Morea<br>Abella</strong></h1>
+            <p>Entrepreneur, Creative & Engineer</p>
+        </div>
+        <img src="images/Portrait.jpg" alt="David Morea Abella portrait picture" style="height: 500px; width: auto;  margin-left: 20px;">
+    </div>
+</header>
+
+<section id="about">
+    <div class="about-container" style="display: flex; align-items: center;">
+        <img src="images/kid_picture.jpg" alt="Childhood photo of David Morea Abella" class="about-image" style="width: 450px; height: auto; margin-right: 50px; ;margin-top: 90px;">
+        <div class="about-text" style="font-size: 1.25rem;">
+            <h2 class="section-title">About me</h2>
+            <p>As a kid, I was always experimenting and exploring with technology.</p>
+            <p>That early passion led me to pursue a Bachelor's in Computer Engineering. And now, I’m diving deeper with a Master’s in Technology Entrepreneurship.</p>
+            <p>I love working on projects that combine creativity with real-world impact.</p>
+            <p>My journey has taken me from working with software to exploring the world of physical products and startups.</p>
+            <p>I’ve had the privilege of studying and working internationally in countries like Spain, Denmark, and the USA. Through my studies and projects, I am focused on creating and scaling companies.</p>
+        </div>
+    </div>
+</section>
+
+<section id="education">
+    <h2 class="section-title">Education</h2>
+    <div class="container">
+        <div class="card">
+            <h3>University of Lleida (Lleida, Spain)</h3>
+            <p>BSc, Computer Engineering</p>
+        </div>
+        <div class="card">
+            <h3>VIA University College (Horsens, Denmark)</h3>
+            <p>Erasmus +, Computer Engineering</p>
+        </div>
+        <div class="card">
+            <h3>Technical University of Denmark (Copenhagen, Denmark)</h3>
+            <p>MSc, Technology Entrepreneurship</p>
+        </div>
+        <div class="card">
+            <h3>Northeastern University (Boston, USA)</h3>
+            <p>Visiting Scholar</p>
+        </div>
+    </div>
+</section>
+
+<section id="experience">
+    <h2 class="section-title">Experience</h2>
+    <div class="container">
+        <div class="card">
+            <h3>Founder, SA115</h3>
+            <p>Artist collective based in Lleida</p>
+        </div>
+        <div class="card">
+            <h3>Co-Founder, JUVO</h3>
+            <p>Fintech Startup based in Copenhagen</p>
+        </div>
+        <div class="card">
+            <h3>Co-Founder, el vino collective</h3>
+            <p>Vintage clothing reselling company based in Copenhagen</p>
+        </div>
+    </div>
+</section>
+
+<section id="other-experience">
+    <h2 class="section-title">Other experiences</h2>
+    <div class="container">
+        <div class="card">
+            <h3>Milestone Systems</h3>
+            <p>Data Analyst, Digital Platforms and Demand generation</p>
+        </div>
+        <div class="card">
+            <h3>ACTIUM Digital</h3>
+            <p>Data Analyst, Business Intelligence</p>
+        </div>
+        <div class="card">
+            <h3>IAESTE</h3>
+            <p>IT Director, International Association for the Exchange of Students for Technical Experience</p>
+        </div>
+        <div class="card">
+            <h3>LEGO</h3>
+            <p>Volunteer, First Lego League</p>
+        </div>
+    </div>
+</section>
+
+<footer id="contact">
+    <p>Contact: moreaabella.d@northeastern.edu | (617) 516-9845</p>
+    <p>© 2024 David Morea Abella.</p>
+</footer>
+
+</body>
+</html>
